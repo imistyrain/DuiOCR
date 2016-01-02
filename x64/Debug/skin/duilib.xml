@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="640,480" sizebox="4,4,4,4" roundcorner="0,0" caption="0,0,0,32" mininfo="640,480" bktrans="true" shadow="true" shadowimage="shadow.png" shadowtopleft="0,0,5,3" shadowtopright="205,0,5,3" shadowbottomleft="0,136,5,7" shadowbottomright="205,136,5,7">
+  <Font name="微软雅黑" size="12" />
+  <Font name="微软雅黑" size="16" />
+  <Font name="微软雅黑" size="22" />
+  <VerticalLayout bkimage="file='bg.png'">
+    <HorizontalLayout height="33" inset="0,3,0,0">
+      <HorizontalLayout>
+        <Text text="DuiOCR V1.0 By 迷若烟雨" pos="15, 10, 300, 50" float="true" textcolor="#FFFFFF" font="0" />
+      </HorizontalLayout>
+	  <HorizontalLayout width="40" height="30">
+		<Button maxwidth="26" inset="200,10,0,0" normalimage="medal.png"/>
+	  </HorizontalLayout>
+      <HorizontalLayout width="150">
+		<Button name="skinbtn" maxwidth="27" maxheight="22" normalimage="skin_normal.png" hotimage="skin_hover.png" pushedimage="skin_pressed.png"/>
+		<Button name="feedbackbtn" maxwidth="27" maxheight="22" normalimage="feedback_normal.png" hotimage="feedback_hover.png" pushedimage="feedback_pressed.png"/>
+		<Button name="settingbtn" maxwidth="27" maxheight="22" normalimage="menu_normal.png" hotimage="menu_hover.png" pushedimage="menu_pressed.png"/>
+		<Button name="minbtn" maxwidth="27" maxheight="22" normalimage="min_normal.png" hotimage="min_hover.png" pushedimage="min_pressed.png"/>
+        <Button name="closebtn" maxwidth="27" maxheight="22" normalimage="close_normal.png" hotimage="close_hover.png" pushedimage="close_pressed.png"/>
+      </HorizontalLayout>
+    </HorizontalLayout>
+	
+	<!--<HorizontalLayout>
+		<HorizontalLayout />
+		<Flash name="flashUI" width="380"/>
+		<HorizontalLayout />
+	</HorizontalLayout>-->
+	<HorizontalLayout>
+	<!--<Wnd />-->
+	<Button name="btnPic" />
+	</HorizontalLayout>
+	<HorizontalLayout height="60">
+	<VerticalLayout />
+	<Label name="resultText" text="请点击按钮输入图片"/>
+	<VerticalLayout />
+	</HorizontalLayout>
+	<HorizontalLayout height="40">
+	  <VerticalLayout />
+	  <HorizontalLayout width="60">
+	  <!--<Button name="btnPrevious"   normalimage=" file='check_normal.png' " hotimage=" file='check_hover.png' " pushedimage=" file='check_pressed.png' " />
+      <Button name="btnopenfile"   normalimage=" file='check_normal.png' " hotimage=" file='check_hover.png' " pushedimage=" file='check_pressed.png' " />
+      <Button name="btnNext" normalimage=" file='check_normal.png' " hotimage=" file='check_hover.png' " pushedimage=" file='check_pressed.png' " />
+	  -->
+      <Button name="btnPlay" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  normalimage="file=&apos;btn_play.png&apos; source=&apos;0,0,48,50&apos;" hotimage="file=&apos;btn_play.png&apos; source=&apos;49,0,97,48&apos;" pushedimage="file=&apos;btn_play.png&apos; source=&apos;98,0,146,48&apos;" />
+	  </HorizontalLayout>
+	  <VerticalLayout />
+	  <HorizontalLayout width="240">
+	  <!--<Edit height="23" text="QQ和360合体，新的奇葩诞生了" bordercolor="#C6CFD8" name="input" />-->
+	  <Text name="statusbar" text="烟雨科技 版权所有" float="true" pos="10,7,0,0" width="820" height="18" textcolor="#FF000000" font="1" />
+	  </HorizontalLayout>
+	  <VerticalLayout />
+    </HorizontalLayout>  
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,14 @@
+﻿生成启动时间为 1/2/2016 11:14:51 AM。
+     1>项目“F:\OpenGit\DuiLabeler\ImageLabelerConsole\ImageLabelerConsole.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"d:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ImageLabeler.cpp
+         ImageLabeler.cpp
+     1>f:\opengit\duilabeler\imagelabelerconsole\imagelabeler.cpp(91): warning C4715: “findallimagesindir”: 不是所有的控件路径都返回值
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\OpenGit\DuiLabeler\x64\Debug\ImageLabelerConsole.exe" /INCREMENTAL /NOLOGO /LIBPATH:"d:\Program Files (x86)\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\OpenGit\DuiLabeler\x64\Debug\ImageLabelerConsole.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\OpenGit\DuiLabeler\x64\Debug\ImageLabelerConsole.lib" /MACHINE:X64 x64\Debug\ImageLabeler.obj
+         ImageLabelerConsole.vcxproj -> F:\OpenGit\DuiLabeler\x64\Debug\ImageLabelerConsole.exe
+     1>已完成生成项目“F:\OpenGit\DuiLabeler\ImageLabelerConsole\ImageLabelerConsole.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.34
